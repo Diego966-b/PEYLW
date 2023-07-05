@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang = "es">
+    <head>
+        <meta charset="utf-8">
+        <link href = "../css/productos.css" type = "text/css" rel = "stylesheet">
+        <link href = "../css/general.css" type = "text/css" rel = "stylesheet">
+        <script src = "../script/funciones.js"></script>
+        <title>Del Rio - Productos</title>
+    </head>
+    <body onload = "actualizarCarrito()">
+        <div id = "cabecera">
+            <ul>
+                <li><img id = "logo" src = "../img/logo.jpeg" alt = "Logo"></li>
+                <li><a href = "nosotros.html">Nosotros</a></li>
+                <li><a href = "productos.html" id = "seleccionado">Productos</a></li>
+                <li><a href = "contactanos.html">Cont&aacute;ctanos</a></li>
+                <li><a href = "recetas.html">Recetas</a></li>
+                <li><a href = "carrito.html">Carrito de compras</a></li>      
+            </ul>
+        </div>
+        <div id = "categoria">
+            <ul>
+                <li><a href = "productos.html" id = "seleccion">Pescados Frescos</a></li>
+                <li><a href = "productosMariscos.html">Mariscos</a></li>
+                <li><a href = "productosCongelados.html">Congelados</a></li>
+            </ul>
+        </div>
+        <h2>PESCADOS FRESCOS</h2>
+        <div id = "contenido"> 
+            <div class = "producto">
+                <h3 class = "titulo">Salmon Rosado</h3>
+                <div class = "imagen"><img src = "../img/salmonRosado.jpeg" alt = "Salmon Rosado"></div>
+                <p class = "descripcion">Proveniente de Chile, rico en omega 3</p>
+                <p class = "precio">$10.000</p>
+                <button class = "botonProducto" onclick = "agregarItem (0)">Agregar al carrito</button>
+            </div>
+            <div class = "producto">
+                <h3 class = "titulo">Atun</h3>
+                <div class = "imagen"><img src = "../img/atun.jpg" alt = "Atun"></div> 
+                <p class = "descripcion">Rico en vitaminas A,D, grupo B. De Noruega a tu mesa</p>
+                <p class = "precio">$5.000</p>
+                <button class = "botonProducto" onclick = "agregarItem (1)">Agregar al carrito</button>
+            </div>
+            <div class = "producto">
+                <h3 class = "titulo">Merluza</h3>
+                <div class = "imagen"><img src = "../img/merluza.jpg" alt = "Merluza"></div>
+                <p class = "descripcion">Aporta minerales a tu dieta, baja en calorias</p>
+                <p class = "precio">$3.000</p>
+                <button class = "botonProducto" onclick = "agregarItem (2)">Agregar al carrito</button>
+            </div>
+        </div>
+        <div id = "pie">
+            <ul>
+                <li>Direcci&oacute;n: Av. Argentina 842</li>
+                <li>T&eacute;lefono: 44335588</li>
+                <li>Email: pescaderiadelrio@gmail.com</li>
+                <li><a href = "https://www.facebook.com/profile.php?id=100064091140465">Seguinos en Facebook</a></li>
+                <li><a href = "https://z-p42.www.instagram.com/pescaderiadelrionavarrete/">Seguinos en Instagram</a></li>
+            </ul>
+        </div>
+    </body>
+</html>

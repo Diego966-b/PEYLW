@@ -1,0 +1,70 @@
+p {
+    margin-left: 40px;
+}
+h2 {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+h3 {
+    font-size: 25px;
+    text-align: center;
+    padding: 0px;
+    margin: 15px;
+}
+.producto {
+    background-color: lightblue;
+    width: 31%; 
+    float: left;
+    padding: 5px;
+    border-style: solid;
+    border-color: rgb(7, 7, 7);
+    border-width: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    margin: lightblue;
+}
+#categoria {
+    height: 80px;
+    font-weight: bold;
+    background-color: lightblue;
+    margin-top: 0px;
+    padding-top: 0px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-width: 0.1px;
+    border-style:solid;
+    border-color: blue;
+}
+#categoria li {
+    display: inline;
+    font-size: 20px;
+    margin:10%;
+}
+#categoria ul {
+    text-align:center;
+}
+#seleccion {
+    border-style: solid;
+    border-radius: 10px;
+    padding:3px;
+    font-weight:bold;
+    font-size: 23px;
+    background-color: rgb(234, 255, 0);
+}
+#contenido {
+    width: 100%;
+}
+#contenido img {
+    width: 400px;
+    height: 300px;
+    margin: 15px;
+}
+.imagen {
+    text-align: center;
+}
+.precio {
+    font-weight: bold;
+}

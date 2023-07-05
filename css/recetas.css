@@ -1,0 +1,44 @@
+#contenido {
+    margin: 70px;
+}
+p {
+    color: #665;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    padding: 10px;
+    text-align:justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.receta li {
+    color: #665;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.receta {
+    float:left;
+    padding: 30px;
+    width: 27%;
+    background-color: lightblue;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    height: 2150px;
+}
+.receta img {
+    width: 100%;
+}
+.receta h2 {
+    font-family: cursive;
+    font-size: 25px;
+}  
+.receta h3 {
+    font-size: 20px;
+}

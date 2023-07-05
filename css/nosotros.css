@@ -1,0 +1,54 @@
+p {
+    color: #665;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    text-align:justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#contenido {
+    padding: 20px;
+    margin: 70px; 
+}
+.pescaderia {
+    margin-right: 20px;
+    border-style: solid;
+    width: 600px;
+    height: 400px;
+}
+.pescado {
+    height: 250px;
+    width: 400px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.banner {
+    width: 1000px;
+    margin: 50px;
+    border-style: solid;
+}
+.subrallado {
+    font-weight: normal;
+    text-decoration:underline;
+}
+.izq {
+    float: left;
+}
+.der {
+    float: right;
+}
+.centro {
+    text-align: center;
+}
+.cls {
+    clear: left
+}

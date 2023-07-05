@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang = "es">
+    <head>
+        <meta charset="utf-8">
+        <link href = "../css/productos.css" type = "text/css" rel = "stylesheet">
+        <link href = "../css/general.css" type = "text/css" rel = "stylesheet">
+        <script src = "../script/funciones.js"></script>
+        <title>Del Rio - Productos</title>
+    </head>
+    <body onload = "actualizarCarrito()">
+        <div id = "cabecera">
+            <ul>
+                <li><img id = "logo" src = "../img/logo.jpeg" alt = "Logo"></li>
+                <li><a href = "nosotros.html">Nosotros</a></li>
+                <li><a href = "productos.html" id = "seleccionado">Productos</a></li>
+                <li><a href = "contactanos.html">Cont&aacute;ctanos</a></li>
+                <li><a href = "recetas.html">Recetas</a></li>
+                <li><a href = "carrito.html">Carrito de compras</a></li>    
+            </ul>
+        </div>
+        <div id = "categoria">
+            <ul>
+                <li><a href = "productos.html">Pescados Frescos</a></li>
+                <li><a href = "productosMariscos.html">Mariscos</a></li>
+                <li><a href = "productosCongelados.html" id = "seleccion">Congelados</a></li>
+            </ul>
+        </div>
+        <h2>CONGELADOS</h2>
+        <div id = "contenido">
+            <div class = "producto">
+                <h3>Rabas</h3>
+                <div class = "imagen"><img src = "../img/rabas.jpg" alt = "Rabas Congeladas"></div>
+                <p class = "descripcion">Rebozadas, listas para freir</p>
+                <p class = "precio">$1.500</p>
+                <button class = "botonProducto" onclick = "agregarItem (3)">Agregar al carrito</button>
+            </div>
+            <div class = "producto">
+                <h3>Milanesas de Pescado</h3>
+                <div class = "imagen"><img src = "../img/milanesas.jpg" alt = "Milanesas Congeladas"></div>
+                <p class = "descripcion">Sin espinas, rebozadas con finas hierbas</p>
+                <p class = "precio">$3.000</p>
+                <button class = "botonProducto" onclick = "agregarItem (4)">Agregar al carrito</button>
+            </div>
+            <div class = "producto">
+                <h3>Medallones de Merluza</h3>
+                <div class = "imagen"><img src = "../img/medallones.jpeg" alt = "Medallones Congelados"></div>
+                <p class = "descripcion">Combinada con espinaca</p>
+                <p class = "precio">$4.000</p>
+                <button class = "botonProducto" onclick = "agregarItem (5)">Agregar al carrito</button>
+            </div>
+        </div>
+        <div id = "pie">
+            <ul>
+                <li>Direcci&oacute;n: Av. Argentina 842</li>
+                <li>T&eacute;lefono: 44335588</li>
+                <li>Email: pescaderiadelrio@gmail.com</li>
+                <li><a href = "https://www.facebook.com/profile.php?id=100064091140465">Seguinos en Facebook</a></li>
+                <li><a href = "https://z-p42.www.instagram.com/pescaderiadelrionavarrete/">Seguinos en Instagram</a></li>
+            </ul>
+        </div>
+    </body>
+</html>

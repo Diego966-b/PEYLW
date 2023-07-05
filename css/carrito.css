@@ -1,0 +1,84 @@
+h2 {
+    text-align: center;
+    font-size: 35px;
+}
+select {
+    margin-left: 15px;
+    width: 100px;
+}
+#carritoItems {
+    padding: 2%;
+    margin: 2%;
+    background-color: rgb(224, 224, 224);
+}
+.divProducto {
+    height: 250px;
+    padding: 40px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: whitesmoke;
+    background-color: lightskyblue;
+}
+.divProducto h4 {
+    font-size: 25px; 
+}
+.divProducto p {
+    font-size: 20px;
+}
+.divProducto p, .divProducto h4 {
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+.divProducto img {
+    float: left;
+    width: 300px;
+    height: 250px;
+    margin-right: 50px;
+}
+#botonPagar {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 500px;
+    width: 100px;
+    padding: 6px;
+}
+#botonEnvio {
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+.botonCantidad {
+    padding: 3px; 
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    width: 30px;
+}
+.botonEliminar {
+    width: 150px;
+    padding: 5px; 
+}
+.cantidadItem {
+    display: inline-block;
+}
+#cuentas {
+    position: relative;
+    bottom: 0;
+}
+#cuentas p {
+    font-size: 20px;
+    margin-left: 400px;
+    margin-bottom: 15px;
+}
+#cuentas a {
+    font-size: 20px;
+    margin-left: 15px;
+}
+#compras p {
+    font-size: 20px;
+    margin-left: 500px;
+    margin-top: 15px;
+}
+.block
+{
+    display: inline-block;
+}

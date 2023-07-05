@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang = "es">
+    <head>
+        <meta charset="utf-8">
+        <link href = "../css/contactanos.css" type = "text/css" rel = "stylesheet">
+        <link href = "../css/general.css" type = "text/css" rel = "stylesheet">
+        <script src = "../script/funciones.js"></script>
+        <title>Del Rio - Contactanos</title>
+    </head>
+    <body>
+        <div id = "cabecera">
+            <ul>
+                <li><img id = "logo" src = "../img/logo.jpeg" alt = "Logo"></li>
+                <li><a href = "nosotros.html">Nosotros</a></li>
+                <li><a href = "productos.html">Productos</a></li>
+                <li><a href = "contactanos.html" id = "seleccionado">Cont&aacute;ctanos</a></li>
+                <li><a href = "recetas.html">Recetas</a></li>
+                <li><a href = "carrito.html">Carrito de compras</a></li>     
+            </ul>
+        </div>
+        <div id = "contenido">
+            <div id = "formularioDiv">     
+                <img src = "../img/contratnado.jpg" alt = "Estamos Contratando">   
+                <h2>Contactanos!</h2>
+                <form id = "formulario">
+                    <p>Nombre:</p><input type = "text" id = "nombre" placeholder = "Nombre">
+                    <br>
+                    <p>Apellido:</p><input type = "text" id = "apellido" placeholder = "Apellido">
+                    <br>
+                    <p>Fecha de nacimiento:</p>
+                    <input type = "text" id = "dia" placeholder = "D&iacute;a">
+                    <input type = "text" id = "mes" placeholder = "Mes">
+                    <input type = "text" id = "anio" placeholder = "A&ntilde;o">
+                    <br>
+                    <p>Email:</p><input type = "text" id = "email" placeholder = "Email">
+                    <br>
+                    <p>Tel&eacute;fono:</p><input type = "text" id = "telefono" placeholder = "tel&eacute;fono">  
+                    <br>
+                    <p>Mensaje (opcional):</p>
+                    <br>
+                    <textarea id = "mensaje" placeholder = "Mensaje"></textarea>
+                    <br>
+                    <button onclick = "validar(event)">Enviar</button>
+                    <input type = "reset" value = "Reiniciar">
+                </form>
+            </div>
+        </div>
+        <div id = "pie">
+            <ul>
+                <li>Direcci&oacute;n: Av. Argentina 842</li>
+                <li>T&eacute;lefono: 44335588</li>
+                <li>Email: pescaderiadelrio@gmail.com</li>
+                <li><a href = "https://www.facebook.com/profile.php?id=100064091140465">Seguinos en Facebook</a></li>
+                <li><a href = "https://z-p42.www.instagram.com/pescaderiadelrionavarrete/">Seguinos en Instagram</a></li>
+            </ul>
+        </div>
+    </body>
+</html>

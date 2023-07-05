@@ -1,0 +1,122 @@
+* {
+    z-index: 1;
+}
+body {
+    background-color: whitesmoke;
+}
+div {
+    margin: 10px;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cabecera {
+    position: relative;
+    top: 0;
+    height: 150px;
+    font-weight: bold;
+    background-image: url("../img/pescador.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    background-color: lightblue;
+    padding: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+    border-width: 0.1px;;
+    border-style:solid;
+    border-color:blue;
+}
+#cabecera ul {
+    margin-top: 40px;
+}
+#cabecera li {
+    font-size: 40px;
+    padding: 20px;
+    display: inline
+}
+#logo {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#seleccionado {
+    border-style: solid;
+    border-radius: 20px;
+    padding: 8px;
+    font-size: 43px;
+    background-color: rgb(234, 255, 0);
+}
+#pie {
+    clear:left; 
+    background-color: lightblue;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: blue;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+#pie li {
+    font-size: 20px;
+}
+#pie li {
+    display: inline;
+    margin-left: 50px;
+}
+#pie ul {
+    margin-top: 40px;
+    padding: 0;
+}
+a:link, a:visited, a:active, a:hover {
+    text-decoration: none;
+    color: rgb(0, 30, 255);
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+button, input[type="reset"] {
+    /* Padding */
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 5px;
+    padding-left: 5px;
+    /* Margin */
+    margin-left: 35px;
+    margin-bottom: 35px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #007bff;
+    border-radius: 8px;
+    color: #007bff;
+}
+  
+button:hover, button:active, input[type="reset"]:hover, input[type="reset"]:active {
+    color: #fff;
+    background-color: #007bff;
+}
+.notificacion {
+    z-index: 2;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    background-color: lightblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0px;
+    margin: 0px;
+}
+.notificacion h2 {
+    margin: 35px;
+    padding: 0px;
+}
+#botonOk {
+    width: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
